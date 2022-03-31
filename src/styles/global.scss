@@ -8,3 +8,26 @@
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
 }
+
+body, #root, #app{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#root{
+    background: url('../assets/background-image.png') repeat;
+    background-size: cover;
+
+    .head-vector{
+        position: absolute;
+        right: 0;
+    }
+
+    #app{
+        z-index: 1;
+    }
+}
