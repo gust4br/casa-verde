@@ -1,5 +1,10 @@
+import { Newsletter } from '../Newsletter';
+import styles from './styles.module.scss';
+
 export function Main(){
     return(
-        <h1></h1>
+        <main className={styles.mainContainer}>
+            <Newsletter />
+        </main>
     )
 }
