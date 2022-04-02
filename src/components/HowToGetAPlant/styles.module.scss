@@ -1,0 +1,94 @@
+.howToGetContainer{
+    display: flex;
+    align-items: flex-start;
+
+    width: 85%;
+
+    position: relative;
+
+    .backgroundTree{
+        position: absolute;
+        right: 0;
+        bottom: 85%;
+        width: 65%;
+    }
+
+    .plantBackground{
+
+        z-index: 2;
+
+        width: 60%;
+        height: 379px;
+
+        display: flex;
+
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .tutorialContainer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 43px;
+        padding-left: 35px;
+
+        background: white;
+
+        z-index: 2;
+
+        p{
+            font-size: 22;
+            color: #202020;
+            opacity: .5;
+            
+            margin-top: 15px;
+
+        }
+
+        h3{
+            font-family: Elsie Swash Caps;
+            font-size: 42px;
+            color: #202020;
+            font-weight: 900;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            list-style: none;
+
+            margin-top: 20px;
+            li{
+                display: flex;
+                align-items: center;
+
+                p{
+                    position: relative;
+                    font-size: 22;
+                    color: #202020;
+                    opacity: .5;
+
+                    margin-left: 1rem;
+                }
+
+                &::before{
+                    content: '';
+                    left: 0;
+
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 999px;
+
+                    background: #FFCB47;
+                }
+            }
+        }
+    }
+
+}
