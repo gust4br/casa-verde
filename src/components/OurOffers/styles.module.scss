@@ -8,6 +8,8 @@
     width: 100%;
     
     margin-top: 44px;
+    
+    margin-bottom: 150px;
 
 
     p{
@@ -21,5 +23,12 @@
         font-weight: 900;
         font-family: Elsie Swash Caps;
         color: #202020;
+    }
+
+    .ourOffers{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
