@@ -1,4 +1,6 @@
-.headerNavigation{
+import styled from 'styled-components';
+
+export const SiteHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,8 +15,16 @@
         width: 177px;
         height: 45px;
     }
+`
 
-    nav, ul{
+export const HeaderNav = styled.nav`
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 100%;
+    list-style: none;
+
+    ul{
         display: flex;
         align-items: flex-end;
         gap: 10px;
@@ -36,4 +46,4 @@
             }
         }
     }
-}
+`

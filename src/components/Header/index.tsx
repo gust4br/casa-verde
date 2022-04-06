@@ -1,13 +1,13 @@
 import logo from '../../assets/logo.svg';
-import styles from './styles.module.scss';
+import { SiteHeader, HeaderNav } from './styles';
 
 export function Header(){
     return(
-        <header className={styles.headerNavigation}>
+        <SiteHeader>
             <a href='#'>
                 <img src={logo} alt="Logo Casa Verde, uma folha verde ao lado da escrita 'Casa Verde'" />
             </a>
-            <nav>
+            <HeaderNav>
                 <ul>
                     <li><a href='#'>Como fazer</a></li>
                     <li>/</li>
@@ -19,7 +19,7 @@ export function Header(){
                     <li>/</li>
                     <li><a href='#'>Meu carrinho</a></li>
                 </ul>
-            </nav>
-        </header>
+            </HeaderNav>
+        </SiteHeader>
     );
 }

@@ -1,5 +1,5 @@
 import { OffersItem } from '../OffersItem';
-import styles from './styles.module.scss';
+import { OffersContainer, OurOffersDiv } from './styles';
 
 
 const offersData = [
@@ -37,10 +37,10 @@ const offersData = [
 
 export function OurOffers(){
     return(
-        <div className={styles.offersContainer}>
+        <OffersContainer>
             <p>Conheça nossas</p>
             <h2>ofertas</h2>
-            <div className={styles.ourOffers}>
+            <OurOffersDiv>
                 {
                     offersData.map((data) => {
                         return(
@@ -48,7 +48,7 @@ export function OurOffers(){
                         )
                     })
                 }
-            </div>
-        </div>
+            </OurOffersDiv>
+        </OffersContainer>
     )
 }

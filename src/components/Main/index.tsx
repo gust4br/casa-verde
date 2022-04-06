@@ -1,16 +1,17 @@
 import { HowToGetAPlant } from '../HowToGetAPlant';
 import { Newsletter } from '../Newsletter';
 import { OurOffers } from '../OurOffers';
-import styles from './styles.module.scss';
+
+import { MainContainer, HowToGetAPlantContainer } from './styles';
 
 export function Main(){
     return(
-        <main className={styles.mainContainer}>
+        <MainContainer>
             <Newsletter />
-            <div className={styles.howToGetAPlantContainer}>
+            <HowToGetAPlantContainer>
                 <HowToGetAPlant />
                 <OurOffers />
-            </div>
-        </main>
+            </HowToGetAPlantContainer>
+        </MainContainer>
     )
 }

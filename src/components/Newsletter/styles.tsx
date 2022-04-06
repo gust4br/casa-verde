@@ -1,4 +1,6 @@
-.newsletterContainer{
+import styled from 'styled-components';
+
+export const NewsletterContainer = styled.div`
     display: flex;
     flex-direction: column;
 
@@ -88,4 +90,4 @@
             }
         }
     }
-}
+`;

@@ -1,16 +1,12 @@
+import styled from "styled-components";
 
-
-.offersContainer{
+export const OffersContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-
     width: 100%;
-    
     margin-top: 44px;
-    
     margin-bottom: 150px;
-
 
     p{
         color: #202020;
@@ -24,11 +20,12 @@
         font-family: Elsie Swash Caps;
         color: #202020;
     }
+`
 
-    .ourOffers{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-}
+export const OurOffersDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+`

@@ -1,5 +1,6 @@
-import styles from './styles.module.scss';
 import seta from '../../assets/icons/seta.svg';
+
+import { OffersItemContainer, OffersImage } from './styles';
 
 interface OffersItemData{
     data: OffersItemProps
@@ -12,8 +13,8 @@ interface OffersItemProps{
 
 export function OffersItem({data}: OffersItemData){
     return(
-        <div className={styles.offersItem}>
-            <img className={styles.offersImage} src={data.img} alt={data.name} />
+        <OffersItemContainer>
+            <OffersImage src={data.img} alt={data.name} />
             <aside>
                 <h1>{data.name}</h1>
                 <p>R${data.price}</p>
@@ -22,6 +23,6 @@ export function OffersItem({data}: OffersItemData){
                     <img src={seta} alt="seta no botão de comprar" />
                 </button>
             </aside>
-        </div>
+        </OffersItemContainer>
     )
 }

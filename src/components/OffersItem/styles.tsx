@@ -1,4 +1,6 @@
-.offersItem{
+import styled from "styled-components";
+
+export const OffersItemContainer = styled.div`
     background: white;
     display: flex;
     align-items: center;
@@ -13,14 +15,6 @@
 
     position: relative;
     overflow: hidden;
-
-    .offersImage{
-        position: absolute;
-        left: -5px;
-        bottom: -5px;
-
-        height: 190px;
-    }
 
     aside{
         display: flex;
@@ -68,4 +62,12 @@
             }
         }
     }
-}
+`;
+
+export const OffersImage = styled.img`
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+
+    height: 190px;
+`;
