@@ -84,9 +84,15 @@ export const NewsletterContainer = styled.div`
 
             cursor: pointer;
 
+            z-index: 2;
 
             &:hover{
                 filter: brightness(1.07);
+            }
+
+            &:disabled{
+                opacity: .4;
+                cursor: not-allowed;
             }
         }
     }
