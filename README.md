@@ -1,4 +1,4 @@
-![landing page banner](https://github.com/gustavosgdev/casa-verde/blob/main/assets/project-gif.gif)
+![landing page banner](https://github.com/gustavosgdev/casa-verde/blob/main/src/assets/project-gif.gif)
 
 <h1 align="center" href> ALURA - 7 DAYS OF CODE</h1>
 <h2 align="center"> This is a #7DaysOfCode from <a href="https://www.alura.com.br/">Alura</a>
