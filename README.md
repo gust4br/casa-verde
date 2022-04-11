@@ -1,4 +1,4 @@
-![landing page banner](https://github.com/gustavosgdev/codeleap-challenge/blob/main/assets/project-gif.gif)
+![landing page banner](https://github.com/gustavosgdev/casa-verde/blob/main/assets/project-gif.gif)
 
 <h1 align="center" href> ALURA - 7 DAYS OF CODE</h1>
 <h2 align="center"> This is a #7DaysOfCode from <a href="https://www.alura.com.br/">Alura</a>
@@ -22,10 +22,10 @@ This is a React 7 Days Of Code challenge, we need build a landing page with a ne
 - [x] Build the page
 - [x] Change css to styled-component
 - [x] Use Hooks for validate the inputed mail
-- [] Register and send mails 
-- [] Connect page to an API
-- [] Manipulate data
-- [] Deploy project
+- [ ] Register and send mails 
+- [ ] Connect page to an API
+- [ ] Manipulate data
+- [ ] Deploy project
 ### Tech:
 #### the following tools were used in this project:
 
