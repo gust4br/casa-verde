@@ -22,8 +22,8 @@ This is a React 7 Days Of Code challenge, we need build a landing page with a ne
 - [x] Build the page
 - [x] Change css to styled-component
 - [x] Use Hooks for validate the inputed mail
-- [ ] Register and send mails 
-- [ ] Connect page to an API
+- [ ] Register and send mails ❌
+- [x] Connect page to an API
 - [ ] Manipulate data
 - [ ] Deploy project
 ### Tech:
